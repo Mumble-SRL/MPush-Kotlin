@@ -1,0 +1,7 @@
+<resources>
+    <string name="exception_sdk_not_initialized">API key not set</string>
+    <string name="internal_error">Internal error</string>
+    <string name="io_error">I/O Error</string>
+    <string name="no_internet_error">Internet unavailable, please try again</string>
+    <string name="timeout_operation_error">Operation timeout error, please try again later</string>
+</resources>
