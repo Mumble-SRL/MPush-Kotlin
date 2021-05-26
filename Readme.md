@@ -27,18 +27,20 @@ After you have set up your project for Firebase you can start using Nooko SDK to
 
 ### Setup
 
-You can get the library via **Maven** adding to your top `build.gradle` file this repository:
+First thing, you can get this sdk via **Gradle** through **MavenCentral** repo, adding this to your top `build.gradle`:
 
 ```
-maven { 
-	url "https://dl.bintray.com/mumbleideas/MBurger-Android/" 
+allprojects {
+    mavenCentral()
 }
 ```
+
+
 
 Then add to your dependencies:
 
 ```
-implementation 'mumble.mburger:mpush-android-kotlin:0.1'
+implementation 'cloud.mburger.mpush_android_sdk_kt:0.0.2'
 ```
 
 
